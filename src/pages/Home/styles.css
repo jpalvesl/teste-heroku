@@ -1,0 +1,76 @@
+h2{
+   font-size: 5rem;
+   color: #FFC709;
+}
+
+.enter,:visited{
+   color: white;
+   padding: 0.4rem 0.7rem;
+   text-decoration: none;
+   cursor: pointer;
+   transition: background-color 0.3s ease-in-out;  
+}
+
+.enter:hover{
+   background-color: tomato;
+}
+
+.enter:active{
+   background-color: darkred;
+
+}
+
+#tituloInvestir{
+   margin-top: 35px;
+   margin-bottom: 35px;
+   font-weight: bold;
+
+}
+
+.capaUm{
+   text-align: center;
+   margin-top: 70px;
+}
+
+.containersDois{
+   margin-top: 70px;
+   margin-bottom: 70px;
+}
+
+#submit{
+   background-color: orange;
+}
+
+#comprar{
+   background-color: orangered;
+   border: none;
+}
+
+.caixaProdutos{
+   padding:100px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.card{
+   margin: 20px;
+}
+
+.imgText {
+   font-size: 20px;
+   text-align: justify;
+   align-self: center;
+   color: #333;
+}
+
+.right {
+   text-align: right;
+}
+
+.left {
+   text-align: left;
+}
+
+.sub {
+    margin-bottom: 20px;
+}
