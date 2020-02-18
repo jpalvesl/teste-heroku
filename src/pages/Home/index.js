@@ -17,7 +17,7 @@ function Home() {
             <h3>
             Acesse 2500+ Conteúdos Online sobre Investimento de uma das maior res corretoras do Brasil
             </h3>
-            <Link className="btn btn-success sub" to="/signup">Inscreva-se</Link>
+            <Link className="btn btn-success bottom" to="/signup">Inscreva-se</Link>
           </div>
           <div className="col-md-6">
             <img src={usuarioCel} alt="Pessoa usando celular" />

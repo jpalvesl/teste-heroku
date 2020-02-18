@@ -16,7 +16,7 @@ import {
 
 import './styles.css'
 
-import logo from '../../assets/images/logo.svg';
+import logo from '../../assets/images/logo192.png';
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,16 +36,21 @@ function Header() {
             <NavItem>
               <NavLink href="https://www.xpi.com.br/" target="_blank" >Investimentos</NavLink>
             </NavItem>
+
+            <NavItem>
+              <NavLink tag={Link} to="/game" >Game</NavLink>
+            </NavItem>
+            
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
                 Ajuda
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem>
-                  Opção 1
+                  Quem somos
                 </DropdownItem>
                 <DropdownItem>
-                  Opção 2
+                  FQS
                 </DropdownItem>
                 <DropdownItem divider />
                 <DropdownItem>
