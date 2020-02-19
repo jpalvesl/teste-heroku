@@ -31,7 +31,7 @@ function Header() {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="m-auto" navbar>
             <NavItem>
-              <NavLink tag={Link} to="/courses">Nossos Cursos</NavLink>
+              <NavLink>Nossos Cursos</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="https://www.xpi.com.br/" target="_blank" >Investimentos</NavLink>
@@ -50,7 +50,7 @@ function Header() {
                   Quem somos
                 </DropdownItem>
                 <DropdownItem>
-                  FQS
+                  FAQ
                 </DropdownItem>
                 <DropdownItem divider />
                 <DropdownItem>
